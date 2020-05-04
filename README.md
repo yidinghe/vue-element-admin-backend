@@ -8,5 +8,5 @@ This is the backend project to support vue-element-admin. Wrote with node.js.
 
 Run following command to start local development
 
-###### npm i -S express
+###### npm install
 ###### node app.js

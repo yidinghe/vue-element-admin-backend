@@ -1,7 +1,10 @@
 const express = require('express')
+const router = require('./router')
 
 // 创建 express 应用
 const app = express()
+
+app.use('/', router)
 
 // 监听 / 路径的 get 请求
 app.get('/', function(req, res) {
